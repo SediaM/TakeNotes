@@ -33,7 +33,7 @@ app.post('/api/notes', (req, res) => {
   res.json(notes);
 });
 
-// DELETE request for notes
+// DELETE request 
 app.delete('/api/notes/:id', (req, res) => {
   const noteId = req.params.id;
   const notes = JSON.parse(fs.readFileSync('./db/db.json'));
