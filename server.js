@@ -11,14 +11,14 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// // GET request for reviews
+// // GET request for notes
 app.get('/api/notes', (req, res) => {
   const notes = JSON.parse(fs.readFileSync('./db/db.json'));
   console.log(notes);
   return res.json(notes);
 })
 
-// POST request for reviews
+// POST request for notes
 app.post('/api/notes', (req, res) => {
   const notes = JSON.parse(fs.readFileSync('./db/db.json'));
   console.log(req.body);
@@ -33,7 +33,7 @@ app.post('/api/notes', (req, res) => {
   res.json(notes);
 });
 
-
+// DELETE request for notes
 app.delete('/api/notes/:id', (req, res) => {
   const noteId = req.params.id;
   const notes = JSON.parse(fs.readFileSync('./db/db.json'));
