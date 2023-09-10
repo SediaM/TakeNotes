@@ -2,7 +2,7 @@
 
 ## Description
 
-This ia an application called TakeNotes that can be used to write and save notes. 
+This is an application called TakeNotes that can be used to write and save notes. 
 This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 This application is deployed to Heroku.
 
@@ -22,7 +22,7 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-[Demo Video]()
+[Demo Video](./assets/TakeNotes%20-%20Week%2011.mp4)
 
 ## Credits
 
