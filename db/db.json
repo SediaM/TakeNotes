@@ -1,7 +1,1 @@
-[
-    {
-        "title": "Test Title",
-        "text": "Test text",
-        "note_id": 1
-    }
-]
+[{"title":"Test Title","text":"Test text","id":1},{"title":"drake","text":"21 savage","id":2},{"title":"make meal","text":"spaghetti's and meatballs","id":3},{"title":"make pasta","text":"spaghetti and meatballs","id":4},{"title":"dog grooming appt","text":"call petco at 2pm Monday","id":5}]
